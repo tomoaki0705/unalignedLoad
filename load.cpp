@@ -3,6 +3,6 @@
 
 void loadExperiment(const char* readPtr)
 {
-	volatile uint64x2_t v00 = vld1q_u64((const uint64_t*)readPtr);
+	volatile uint32x4_t v00 = vld1q_u32((const uint32_t*)readPtr);
 	return;
 }
