@@ -1,5 +1,6 @@
+#include <stdint.h>
 
-void loadExperiment(const char* readPtr);
+void loadExperiment(const int8_t* readPtr);
 void loadExperiment(const unsigned char* readPtr);
 void loadExperiment(const short* readPtr);
 void loadExperiment(const unsigned short* readPtr);

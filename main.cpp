@@ -11,11 +11,11 @@ int main(int argc, char**argv)
 		std::cout << "loading from " << i << std::flush;
 		if (argc < 2 || std::string(argv[1]) == std::string("s8"))
 		{
-			loadExperiment((const char*)(workArea + i));
+			loadExperiment((const int8_t*)(workArea + i));
 		}
 		else if (std::string(argv[1]) == std::string("u8"))
 		{
-			loadExperiment(workArea + i);
+			loadExperiment((const uint8_t*)workArea + i);
 		}
 		else if (std::string(argv[1]) == std::string("s16"))
 		{

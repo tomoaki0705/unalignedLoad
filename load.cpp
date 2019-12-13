@@ -8,7 +8,7 @@ void loadExperiment(const T* readPtr)             \
 	return;                                       \
 }
 
-MAKE_TEMPLATED_FUNCTION(int8x16_t,   s8,  char);
+MAKE_TEMPLATED_FUNCTION(int8x16_t,   s8,  int8_t);
 MAKE_TEMPLATED_FUNCTION(uint8x16_t,  u8,  unsigned char);
 MAKE_TEMPLATED_FUNCTION(int16x8_t,   s16, short);
 MAKE_TEMPLATED_FUNCTION(uint16x8_t,  u16, unsigned short);
